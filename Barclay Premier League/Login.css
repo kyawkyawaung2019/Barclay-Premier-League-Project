@@ -1,0 +1,126 @@
+﻿body{
+	background: linear-gradient(to bottom right, white, green);
+	height: 4000px;}
+.headerx{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	color: white;
+	z-index: 7;
+	font-family: verdana;	
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);}
+.header{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	background-image:url("Images/Grass.jpg");
+	background-position: center;
+	color: white;
+	z-index: 7;
+	font-family: verdana;}
+.bodyx{
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: 800px;
+	background: #333399;}
+#intro1{
+	top: 40px;
+	left:100px;
+	font-family: Time News Roman;
+	font-size:33px;
+	color: white;
+	height: 75px;
+	width: 550px;}
+#intro2{
+	top: 35px;
+	left: 800px;
+	font-family: Time News Roman;
+	font-size: 40px;
+	color: white;
+	width: 500px;
+	height: 60px;}
+#form3{
+	top:110px;
+	left: 800px;
+	font-family: Time News Roman;
+	font-size: 20px;
+	color: #142170;
+	width: 460px;
+	height: 430px;
+	background: #333390;}
+#lname{
+	color:white;
+	font-size: 25px;
+	padding: 10px;}
+#lcheck{
+	color:white;
+	font-size: 17px;}
+#university{
+	width:280px;
+	height: 50px;
+	border-radius: 15px/15px;
+	background: white;
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;}
+#city{
+	width:120px;
+	height: 50px;
+	border-radius: 15px/15px;
+	background: white;
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;}
+#project{
+	width: 425px;
+	height: 50px;
+	border-radius: 15px/15px;
+	background: white;
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;}
+#password{
+	width: 425px;
+	height: 50px;
+	border-radius: 15px/15px;
+	background: white;
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;}
+#login{
+	width: 230px;
+	height: 50px;
+	background: green;
+	color: white;
+	font-size: 20px;
+	border-radius: 15px/15px;
+	cursor: pointer;
+	outline: none;}
+#clear{
+	width: 100px;
+	height: 50px;
+	background: green;
+	color: red;
+	font-size: 20px;
+	border-radius: 15px/15px;
+	cursor: pointer;
+	outline: none;}
+#help{
+	width: 100px;
+	height: 50px;
+	background: green;
+	color: red;
+	font-size: 20px;
+	border-radius: 15px/15px;
+	cursor: pointer;
+	outline: none;}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html
+<head>
+	<title>LOGIN Page</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+	<script type="text/javascript" src="EventUtil.js"></script>
+	<script type="text/javascript" src="CookieUtil.js"></script>
+	<script type="text/javascript" src="Login.js"></script>
+</head>
+<body style="height: 550px">
+	<div class="headerx">
+	</div>
+	<div class="header">
+		<center><video width="1355" height="100" autoplay loop>
+			<source src="Videos/Head.mp4" type="video/mp4">
+		</video></center>
+	</div>
+	<div class="bodyx">
+		<div id="intro1" class="bodyx">
+			University of Computer Studies, Maubin<br><hr>
+			<div id="video">
+			<video height="421" width="525" autoplay loop>
+				<source src="Videos/video.mp4" type="video/mp4">
+			</video>
+			</div>
+		</div>
+		<div id="intro2" class="bodyx">
+			Barclays Premier League
+		</div>
+		<div id="form3" class="bodyx">
+		<form id="myform" name="f1" method="post">
+			<lable for="universityName" id="lname">University Name</lable><br>
+			<input placeholder="Computer University" type="text" id="university" name="name1"/><input placeholder="Maubin" type="text" id="city"><br>
+			<lable for="projectName" id="lname">Project Name</label<br>
+			<input placeholder="Barclays Premier League" type="text" id="project"><br>
+			<label for="password" id="lname">Enter Password</label><br>
+			<input placeholder="CUmaubin" type="password" id="password"><br>
+			<input type="checkbox" id="check"><lable for="checkbox" id="lcheck">Do you want to save password for login again?</lable><br>
+		<hr color="blue">
+			<input type="button" id="help" value="HELP"/>
+			<input type="submit" id="login" value="LOGIN"/>
+			<input type="reset" id="clear" value="CLEAR"/>
+		<br><hr color="blue">
+		</form>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		LoginForm();
+		Help();
+		myCookie();
+		AUTO();
+	</script>
+</body>
+</html>
