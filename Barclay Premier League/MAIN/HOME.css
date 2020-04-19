@@ -1,0 +1,41 @@
+﻿body {background-color : green;}
+#back	{
+	background-image:url("ZI/Image/Background/smallGrass.jpg");}
+a {
+	color:#ffffff;
+	background-color:#06700b;
+	text-decoration:none;
+	font-family:georgia, times, serif;
+	font-size:0.8em;
+	padding:10px;
+	border-bottom:3px solid #06700b;}
+a:hover {
+	color:#000000;
+	background-color:green;
+	padding:10px;
+	border-right:1px solid #000000;
+	border-bottom:3px solid white;}
+
+ul#menuList{
+	list-style:none;
+	margin:0;}
+ul#menuList li{
+	display:inline;}
+ul#menuList a{
+	color:#ffffff;
+	background-color:green;
+	text-decoration:none;
+	font-family:georgia, times, serif;
+	font-size:1.126em;
+	padding:10px;
+	border-bottom:3px solid green;}
+ul#menuList a:hover{
+	color:#000000;
+	background-color:green;
+	padding:10px;
+	border-bottom:3px solid white;
+	border-right: 3px solid #000000;
+	border-top: 1px solid #000000;}
+img#top{
+	height:300px;
+	width:725px;}
